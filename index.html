@@ -1,67 +1,180 @@
- <html>
+<html>
 
- <head>
-   <title>HAND GESTURE</title>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<head>
+    <title>CASE STUDY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 
-   <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+<body>
+    <div class="container">
+        <h4>CASE STUDY
+            <img src="https://mahdihat791.github.io/CaseStudy-AM/case.png" style="width: 200px;"></h4>
+        <hr>
+        <ol>
+            <div class="division">
+                <li>
+                    <b>Test image - </b><img src="https://mahdihat791.github.io/CaseStudy-AM/bottle.jpeg"
+                        class="img-responsive">
+                </li>
+                <h5>Output on <b>Wolfram Project</b> -
+                    <span>Jug</span>
+                </h5>
+                <h5>Output on <b>Mobilenet Project</b> -
+                    <span>Water bottle</span>
+                </h5>
+                <div class="result_obj">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4>Mobilenet Model Is More Accurate</h4>
+                </div>
+            </div>
+            <hr>
+            <div class="division">
+                <li>
+                    <b>Test image - </b><img src="https://mahdihat791.github.io/CaseStudy-AM/shoes.jpeg"
+                        class="img-responsive">
+                </li>
+                <h5>Output on <b>Wolfram Project</b> -
+                    <span>Shoes</span>
+                </h5>
+                <h5>Output on <b>Mobilenet Project</b> -
+                    <span>Shoes</span>
+                </h5>
+                <div class="result_obj">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4>Both Models Are Accurate</h4>
+                </div>
+            </div>
+            <hr>
+            <div class="division">
+                <li>
+                    <b>Test image - </b><img src="https://mahdihat791.github.io/CaseStudy-AM/hp.jpeg"
+                        class="img-responsive">
+                </li>
+                <h5>Output on <b>Wolfram Project</b> -
+                    <span>Field lens</span>
+                </h5>
+                <h5>Output on <b>Mobilenet Project</b> -
+                    <span>Microphone, Mike</span>
+                </h5>
+                <div class="result_obj">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4>Mobilenet Model Is More Accurate</h4>
+                </div>
+            </div>
+            <hr>
+            <div class="division">
+                <li>
+                    <b>Test image - </b><img src="https://mahdihat791.github.io/CaseStudy-AM/t.jpeg"
+                        class="img-responsive">
+                </li>
+                <h5>Output on <b>Wolfram Project</b> -
+                    <span>Plush toy</span>
+                </h5>
+                <h5>Output on <b>Mobilenet Project</b> -
+                    <span>Ski mask</span>
+                </h5>
+                <div class="result_obj">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4>Wolfram Model Is More Accurate</h4>
+                </div>
+            </div>
+            <hr>
+            <div class="division">
+                <li>
+                    <b>Test image - </b><img src="https://mahdihat791.github.io/CaseStudy-AM/bed.jpeg"
+                        class="img-responsive">
+                </li>
+                <h5>Output on <b>Wolfram Project</b> -
+                    <span>Bedroom</span>
+                </h5>
+                <h5>Output on <b>Mobilenet Project</b> -
+                    <span>Bathtub, Bathing tub, Bath, Tub</span>
+                </h5>
+                <div class="result_obj">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4>Wolfram Model Is More Accurate</h4>
+                </div>
+            </div>
+            <hr>
+            <div class="division">
+                <li>
+                    <b>Test image - </b><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmSe40hz7FM4e-Lm5WIatXSPkQrPG7cgY68RqMDRW--7ZbicyTmvFFM9o-cvLWk8K8K1DN7os&usqp=CAc"
+                        class="img-responsive">
+                </li>
+                <h5>Output on <b>Wolfram Project</b> -
+                    <span>Mug</span>
+                </h5>
+                <h5>Output on <b>Mobilenet Project</b> -
+                    <span>Coffee mug</span>
+                </h5>
+                <div class="result_obj">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4>Both Models Are More Accurate</h4>
+                </div>
+            </div>
+            <hr>
+            <div class="division">
+                <li>
+                    <b>Test image - </b><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrHPWZZ-4n3H76uliv8SUwthVurS3v_Vc90w&usqp=CAU"
+                        class="img-responsive">
+                </li>
+                <h5>Output on <b>Wolfram Project</b> -
+                    <span>Entertainment center</span>
+                </h5>
+                <h5>Output on <b>Mobilenet Project</b> -
+                    <span>Television</span>
+                </h5>
+                <div class="result_obj">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4>Mobilenet Model Is More Accurate</h4>
+                </div>
+            </div>
+            <hr>
+            <div class="division">
+                <li>
+                    <b>Test image - </b><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3qc_sWmOAqoIL_mzc9w55nk04JCRauiDuQg&usqp=CAU"
+                        class="img-responsive">
+                </li>
+                <h5>Output on <b>Wolfram Project</b> -
+                    <span>Joystick</span>
+                </h5>
+                <h5>Output on <b>Mobilenet Project</b> -
+                    <span>Mobile</span>
+                </h5>
+                <div class="result_obj">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4>Mobilenet Model Is More Accurate</h4>
+                </div>
+            </div>
+            <hr>
 
-   <link rel="stylesheet" type="text/css" href="style.css">
- </head>
+        </ol>
+        <br><br>
+        <h4
+            style="box-shadow: 5px 5px 18px grey;letter-spacing: 2px;background: #F2BAC9;border-radius: 20px;padding: 20px;border:2px solid grey">
+            I have tested 8 images<br>
+            <b>Mobilenet</b> have predicted 6 of them correctly. And <b>Wolfram Project</b> have predicted 4 of them
+            correctly. <br>
+            So according to my case study <b>Mobilenet</b> is more Accurate</h4>
+    </div>
+    <br><br>
 
- <body>
-   <div class="container">
-
-     <center>
-       <h3 class="btn btn-warning heading">HAND GESTURE APP
-         <br>
-         <span>&#128077;</span>
-         <span>&#9996;</span>
-         <span>&#128076;</span>
-       </h3>
-       <br><br>
-
-       <p style="font-size: 22px;">Take your selfie to generate gesture 
-         <br>
-         <b style="color: yellow">Best</b>
-         <br>
-         <b style="color: black">Victory</b>
-         <br>
-         <b style="color: red">Amazing</b>
-         <br>
-       </p>
-
-       <div class="col-md-4 col-sm-12 col-xs-12">
-         <label>Snapshot - </label>
-         <div id="camera"></div>
-         <br><br>
-         <button onclick="take_snapshot();" class="btn btn-warning">Capture Image</button>
-       </div>
-       <div class="col-md-4 col-sm-12 col-xs-12">
-         <labe>Prediction 1 - </label>
-           <p class="emotion_name" id="result_emotion_name"></p>
-           <p class="emoji" id="update_emoji"></p>
-
-           <labe>Prediction 2 - </label>
-             <p class="emotion_name" id="result_emotion_name2"></p>
-             <p class="emoji" id="update_emoji2"></p>
-       </div>
-       <div class="col-md-4 col-sm-12 col-12">
-         <label>Snapshot - </label>
-         <div id="result"></div>
-         <br><br>
-         <button onclick="check();" class="btn btn-success">Predict Emotion</button>
-       </div>
-     </center>
-
-   </div>
-
-   <script src="main.js"></script>
-
- </body>
-
- </html>
+    <div class="copy_right_footer">
+        Developed by - Samyak Bhoyar
+    </div>
+</body>
